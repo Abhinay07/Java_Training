@@ -1,0 +1,24 @@
+Step-1
+github repository common - develop
+feature/rakesh - separate space for individual developer -- url
+feature/pradeep
+feature/teammembers
+
+Step-2
+local machine - create a folder then command - git init ( initialize the folder with git)
+git clone url
+Open in STS/Intellij/Eclispe
+
+Step-3
+ByDefault it will be master/develop branch
+we need to checkout to our feature/branch -- git checkout -b feature/rakesh  -- By GIT tool
+git pull origin feature/rakesh
+
+Step -4
+
+Do you're changes ( one file or multiple files)
+check git status ( It will show you're changed files)
+git add . ( it will add all files)
+git add filename ( it will add only single file)
+git commit -m"Message" ( it will add a description to the commit)
+git push origin feature/branch.
